@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link type="text/css" href="../styles/style.css" rel="stylesheet" />
+        <title>Carrito</title>
+    </head>
+    <body>
+        <nav>
+        <!--Shopping cart-->
+            <div class="producstOnCart">
+                <div class="overlay"></div>
+                <div class="top">
+                    <h3>Carrito</h3>
+                </div>
+                <div class="shopping-cart">
+                    <div class="sum-prices">
+                        <h6 id="sum-prices"></h6>
+                    </div>
+                </div>
+                <ul id="buyItems">
+                    <h4 class="empty">Carrito vacío</h4>
+                </ul>
+                <button class="btn checkout hidden">Comprar</button>
+            </div>
+        </nav>
+
+        <main>
+            <section class="main-section">
+                <div class="product-container">
+                    <h3>Pañales</h3>
+                    <!-- Sección de productos -->
+                    <div class="products">
+                        <!-- producto 1-->
+                        <div class="product">
+                            <div class="product-under">
+                                <figure class="product-image">
+                                    <img src="../assets/9-mejores-panales-para-bebes-segun-la-ocu-655x368.jpeg"
+                                        alt="Pañales"/>
+                                    <div class="product-over">
+                                        <button class="btn btn-small addToCart" data-product-id="1"> <a>Añadir a carrito</a></button>
+                                    </div>
+                                </figure>
+                                <div class="product-summary">
+                                    <h4 class="productName">Pañal 1</h4>
+                                    <h6 class="price">€<span class="priceValue">12</span></h6>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- producto 2-->
+                    <div class="product">
+                        <div class="product-under">
+                            <figure class="product-image">
+                                <img src="../assets/bebé-en-pañal-min.jpeg"
+                                    alt="Pañales"/>
+                                <div class="product-over">
+                                    <button class="btn btn-small addToCart" data-product-id="2"> <a>Añadir a carrito</a></button>
+                                </div>
+                            </figure>
+                            <div class="product-summary">
+                                <h4 class="productName">Pañal 2</h4>
+                                <h6 class="price">€<span class="priceValue">11</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- producto 3-->
+                    <div class="product">
+                        <div class="product-under">
+                            <figure class="product-image">
+                                <img src="../assets/panales-bebe-U66101357515Ydb-1200x630@abc.jpeg"
+                                    alt="Pañales"/>
+                                <div class="product-over">
+                                    <button class="btn btn-small addToCart" data-product-id="3"> <a>Añadir a carrito</a></button>
+                                </div>
+                            </figure>
+                            <div class="product-summary">
+                                <h4 class="productName">Pañal 3</h4>
+                                <h6 class="price">€<span class="priceValue">8</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </section>
+        </main>
+        <footer>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+              </div>
+        
+              <p class="footer">
+                © 2021 Procter & Gamble Todos los derechos reservados. El uso y el
+                acceso a la información del presente sitio está sujeto a los Términos y
+                Condiciones de uso establecidos en nuestro acuerdo legal.
+              </p>
+        </footer>
+        <script src="../script/script.js"></script>
+    </body>
+</html>
